@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake: build",
+            "type": "shell",
+            "command": "cmake --build build -j",
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "CMake: configure + build",
+            "type": "shell",
+            "command": "make",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Run (desktop)",
+            "type": "shell",
+            "command": "./build/TerminalApp",
+            "dependsOn": "CMake: build"
+        },
+        {
+            "label": "Regenerate assets",
+            "type": "shell",
+            "command": "python3 tools/gen_assets.py"
+        }
+    ]
+}

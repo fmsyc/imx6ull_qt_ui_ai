@@ -1,0 +1,3197 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/uname"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Linux -  - arm
+      The host system is: Linux - 7.0.0-38-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/gmake"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ 
+      Build flags: -march=armv7ve;-mtune=cortex-a7;-mfpu=neon;-mfloat-abi=hard;-O2;-pipe
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find crt1.o: No such file or directory
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find crti.o: No such file or directory
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find crtbegin.o: No such file or directory
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lstdc++
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lm
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lgcc_s
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lgcc
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lc
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lgcc_s
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find -lgcc
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find crtend.o: No such file or directory
+      /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld: cannot find crtn.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ 
+      Build flags: -march=armv7ve;-mtune=cortex-a7;-mfpu=neon;-mfloat-abi=hard;-O2;-pipe
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-dlltool"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-dlltool"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/sbin/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/sbin/arm-poky-linux-gnueabi-dlltool"
+      - "/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/games/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/local/games/arm-poky-linux-gnueabi-dlltool"
+      - "/snap/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-dlltool"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-dlltool"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/dlltool"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/dlltool"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/dlltool"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-tapi"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-tapi"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-tapi"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-tapi"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-tapi"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-tapi"
+      - "/usr/sbin/arm-poky-linux-gnueabi-tapi"
+      - "/usr/bin/arm-poky-linux-gnueabi-tapi"
+      - "/sbin/arm-poky-linux-gnueabi-tapi"
+      - "/bin/arm-poky-linux-gnueabi-tapi"
+      - "/usr/games/arm-poky-linux-gnueabi-tapi"
+      - "/usr/local/games/arm-poky-linux-gnueabi-tapi"
+      - "/snap/bin/arm-poky-linux-gnueabi-tapi"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-tapi"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-tapi"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/tapi"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/tapi"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/tapi"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "arm-poky-linux-gnueabi-gcc-ar-5"
+      - "arm-poky-linux-gnueabi-gcc-ar5"
+      - "arm-poky-linux-gnueabi-gcc-ar"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ar-5.3"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ar-5"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ar5"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ar5"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "arm-poky-linux-gnueabi-gcc-ranlib"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ranlib-5.3"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ranlib-5"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/local/sbin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/local/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/sbin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/sbin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/games/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/local/games/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/snap/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-poky-linux-gnueabi-gcc-ranlib5"
+      - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/arm-poky-linux-gnueabi-gcc-ranlib5"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY"
+      binary: "/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -O2 "
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5928/fast
+        gmake[1]: Entering directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e5928.dir/build.make CMakeFiles/cmTC_e5928.dir/build
+        gmake[2]: Entering directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY'
+        Building CXX object CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi   -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -O2     -v -o CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++
+        Target: arm-poky-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-5.3.0-r0/gcc-5.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/5.3.0 --with-build-time-tools=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-linux/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/imx6ull14x14evk --enable-poison-system-directories --with-mpfr=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-mpc=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --enable-nls --with-arch=armv7-a
+        Thread model: posix
+        gcc version 5.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/cc1plus -quiet -v -isysroot /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccJWDtTx.s
+        GNU C++ (GCC) version 5.3.0 (arm-poky-linux-gnueabi)
+        	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/gcc/arm-poky-linux-gnueabi/5.3.0/include"
+        ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include"
+        ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/../../../../../arm-poky-linux-gnueabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include
+        End of search list.
+        GNU C++ (GCC) version 5.3.0 (arm-poky-linux-gnueabi)
+        	compiled by GNU C version 5.3.0, GMP version 6.1.0, MPFR version 3.1.3, MPC version 1.0.3
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 40106b0d1bf8ba15e97ac9d684e64e70
+        COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJWDtTx.s
+        GNU assembler version 2.26.0 (arm-poky-linux-gnueabi) using BFD version (GNU Binutils) 2.26.0.20160226
+        COMPILER_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+        LIBRARY_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu'
+        Linking CXX executable cmTC_e5928
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5928.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++
+        COLLECT_LTO_WRAPPER=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper
+        Target: arm-poky-linux-gnueabi
+        Configured with: ../../../../../../work-shared/gcc-5.3.0-r0/gcc-5.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/5.3.0 --with-build-time-tools=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-linux/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/imx6ull14x14evk --enable-poison-system-directories --with-mpfr=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-mpc=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --enable-nls --with-arch=armv7-a
+        Thread model: posix
+        gcc version 5.3.0 (GCC) 
+        COMPILER_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/
+        LIBRARY_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'cmTC_e5928' '-shared-libgcc' '-mtls-dialect=gnu'
+         /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/collect2 -plugin /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghuTYC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e5928 /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib -v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o
+        collect2 version 5.3.0
+        /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld -plugin /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghuTYC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e5928 /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib -v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o
+        GNU ld (GNU Binutils) 2.26.0.20160226
+        /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -O2    -v -Wl,-v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e5928
+        gmake[2]: Leaving directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY'
+        gmake[1]: Leaving directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0]
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi]
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward]
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include]
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed]
+          add: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include]
+        end of search list found
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0]
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi]
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward]
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include]
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed]
+        collapse include dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include]
+        implicit include dirs: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5928/fast]
+        ignore line: [gmake[1]: Entering directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e5928.dir/build.make CMakeFiles/cmTC_e5928.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi   -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -O2     -v -o CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++]
+        ignore line: [Target: arm-poky-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-5.3.0-r0/gcc-5.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/5.3.0 --with-build-time-tools=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-linux/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/imx6ull14x14evk --enable-poison-system-directories --with-mpfr=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-mpc=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --enable-nls --with-arch=armv7-a]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/cc1plus -quiet -v -isysroot /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi -D_GNU_SOURCE /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -O2 -version -o /tmp/ccJWDtTx.s]
+        ignore line: [GNU C++ (GCC) version 5.3.0 (arm-poky-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 5.3.0  GMP version 6.1.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/gcc/arm-poky-linux-gnueabi/5.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/../../../../../arm-poky-linux-gnueabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/arm-poky-linux-gnueabi]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/c++/5.3.0/backward]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/include-fixed]
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 5.3.0 (arm-poky-linux-gnueabi)]
+        ignore line: [	compiled by GNU C version 5.3.0  GMP version 6.1.0  MPFR version 3.1.3  MPC version 1.0.3]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 40106b0d1bf8ba15e97ac9d684e64e70]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
+        ignore line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/as -v -march=armv7ve -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJWDtTx.s]
+        ignore line: [GNU assembler version 2.26.0 (arm-poky-linux-gnueabi) using BFD version (GNU Binutils) 2.26.0.20160226]
+        ignore line: [COMPILER_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtls-dialect=gnu']
+        ignore line: [Linking CXX executable cmTC_e5928]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5928.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper]
+        ignore line: [Target: arm-poky-linux-gnueabi]
+        ignore line: [Configured with: ../../../../../../work-shared/gcc-5.3.0-r0/gcc-5.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=arm-poky-linux-gnueabi --prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr --bindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --sbindir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi --libexecdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi --datadir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/com --localstatedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/var --libdir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi --includedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-poky-linux-gnueabi- --without-local-prefix --enable-lto --enable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/5.3.0 --with-build-time-tools=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-linux/usr/arm-poky-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/imx6ull14x14evk --enable-poison-system-directories --with-mpfr=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --with-mpc=/home/linuxdzm/alientek_workspace/ycoto/fsl-release-bsp/buildQt5.12.9/tmp/sysroots/x86_64-nativesdk-pokysdk-linux --enable-nls --with-arch=armv7-a]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 5.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/]
+        ignore line: [LIBRARY_PATH=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/:/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi' '-march=armv7ve' '-mtune=cortex-a7' '-mfpu=neon' '-mfloat-abi=hard' '-O2' '-v' '-o' 'cmTC_e5928' '-shared-libgcc' '-mtls-dialect=gnu']
+        link line: [ /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/collect2 -plugin /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghuTYC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e5928 /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib -v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o]
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccghuTYC.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-armhf.so.3] ==> ignore
+          arg [-X] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e5928] ==> ignore
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o] ==> obj [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o]
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o] ==> obj [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o]
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o] ==> obj [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o]
+          arg [-L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0] ==> dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0]
+          arg [-L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib] ==> dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib]
+          arg [-L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0] ==> dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0]
+          arg [-L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib] ==> dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o] ==> obj [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o]
+          arg [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o] ==> obj [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o]
+        ignore line: [collect2 version 5.3.0]
+        ignore line: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/real-ld -plugin /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/liblto_plugin.so -plugin-opt=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghuTYC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_e5928 /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0 -L/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib -v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o /opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o]
+        ignore line: [GNU ld (GNU Binutils) 2.26.0.20160226]
+        ignore line: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++ --sysroot=/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi -march=armv7ve -mtune=cortex-a7 -mfpu=neon -mfloat-abi=hard -O2    -v -Wl -v CMakeFiles/cmTC_e5928.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e5928]
+        ignore line: [gmake[2]: Leaving directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY']
+        ignore line: [gmake[1]: Leaving directory '/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/CMakeScratch/TryCompile-4QvnMY']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0]
+        collapse library dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib]
+        collapse library dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0]
+        collapse library dir [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib] ==> [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crt1.o;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crti.o;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtbegin.o;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0/crtend.o;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/crtn.o]
+        implicit dirs: [/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/lib/arm-poky-linux-gnueabi/gcc/arm-poky-linux-gnueabi/5.3.0;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/arm-poky-linux-gnueabi/5.3.0;/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:27 (find_package)"
+    name: "QT"
+    components:
+      -
+        name: "Core"
+        required: true
+        found: false
+      -
+        name: "Gui"
+        required: true
+        found: false
+      -
+        name: "Widgets"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "Qt6Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6-config.cmake"
+        kind: "cmake"
+      -
+        filename: "Qt5Config.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6"
+        - "Qt5"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DRender/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DRender/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DRender/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DRender/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickScene2D/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickScene2D/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickScene2D/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickScene2D/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickRender/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickRender/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickRender/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickRender/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickInput/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickInput/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickInput/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickInput/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickExtras/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickExtras/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickExtras/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickExtras/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickAnimation/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickAnimation/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickAnimation/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuickAnimation/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuick/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuick/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuick/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DQuick/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DLogic/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DLogic/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DLogic/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DLogic/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DInput/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DInput/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DInput/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DInput/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DExtras/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DExtras/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DExtras/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DExtras/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DCore/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DCore/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DCore/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DCore/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DAnimation/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DAnimation/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DAnimation/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt53DAnimation/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5XmlPatterns/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5XmlPatterns/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5XmlPatterns/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5XmlPatterns/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Xml/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Xml/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Xml/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Xml/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5X11Extras/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5X11Extras/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5X11Extras/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5X11Extras/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Widgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Widgets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebSockets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebSockets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebSockets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebSockets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKitWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKitWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKitWidgets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKitWidgets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKit/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKit/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKit/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebKit/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebChannel/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebChannel/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebChannel/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WebChannel/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5VirtualKeyboard/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5VirtualKeyboard/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5VirtualKeyboard/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5VirtualKeyboard/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiTools/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiTools/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiPlugin/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiPlugin/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiPlugin/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5UiPlugin/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Test/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Test/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Test/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Test/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SystemInfo/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SystemInfo/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SystemInfo/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SystemInfo/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Svg/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Svg/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Svg/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Svg/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sql/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sql/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sql/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sql/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ServiceFramework/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ServiceFramework/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ServiceFramework/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ServiceFramework/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialPort/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialBus/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialBus/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialBus/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SerialBus/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sensors/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sensors/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sensors/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sensors/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ScriptTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ScriptTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ScriptTools/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5ScriptTools/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Script/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Script/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Script/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Script/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickWidgets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickWidgets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTest/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTest/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTest/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTest/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTemplates2/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTemplates2/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTemplates2/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickTemplates2/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickControls2/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickCompiler/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickCompiler/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickCompiler/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5QuickCompiler/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Quick/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Quick/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Quick/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Qml/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Qml/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Qml/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PublishSubscribe/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PublishSubscribe/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PublishSubscribe/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PublishSubscribe/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PrintSupport/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PrintSupport/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PrintSupport/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PrintSupport/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PositioningQuick/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PositioningQuick/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PositioningQuick/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5PositioningQuick/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Positioning/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Positioning/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Positioning/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Positioning/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGLExtensions/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGLExtensions/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGLExtensions/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGLExtensions/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGL/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGL/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGL/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5OpenGL/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Nfc/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Nfc/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Nfc/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Nfc/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Network/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Network/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5MultimediaWidgets/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5MultimediaWidgets/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5MultimediaWidgets/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5MultimediaWidgets/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Multimedia/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Mqtt/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Mqtt/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Mqtt/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Mqtt/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Location/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Location/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Location/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Location/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5LinguistTools/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5LinguistTools/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5LinguistTools/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5LinguistTools/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Help/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Help/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Help/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Help/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Enginio/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Enginio/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Enginio/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Enginio/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Designer/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Designer/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Designer/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Designer/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5DBus/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5DBus/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5DBus/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5DBus/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Core/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Core/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Concurrent/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Concurrent/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Concurrent/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Concurrent/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Charts/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Charts/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Charts/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Bluetooth/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Bluetooth/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Bluetooth/Qt5Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Bluetooth/qt5-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Qt5Core"
+    configs:
+      -
+        filename: "Qt5CoreConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5core-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Core"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5CoreConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5core-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:8 (find_path)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:75 (_qt5gui_find_extra_libs)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:191 (include)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "path"
+    variable: "_actual_dir"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/include/libdrm"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/games/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/games/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/snap/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/X11/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/QT/QT6/6.11.2/gcc_64/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/sbin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/games/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/games/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/snap/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/include/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/X11/"
+    searched_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/QT/QT6/6.11.2/gcc_64/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/games//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/games//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/snap/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/X11//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/QT/QT6/6.11.2/gcc_64/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/sbin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/games//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/games//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/snap/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/local//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/terminalApp//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/X11R6//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/pkg//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt/include//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/opt//usr/include/libdrm"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/include/X11//usr/include/libdrm"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:30 (find_library)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:75 (_qt5gui_find_extra_libs)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:191 (include)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGL"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/libEGL.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:58 (find_library)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:75 (_qt5gui_find_extra_libs)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:191 (include)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_EGL_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "EGLd"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:30 (find_library)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:77 (_qt5gui_find_extra_libs)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:191 (include)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GLESv2_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLESv2"
+    candidate_directories:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/lib/"
+    found: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/libGLESv2.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:58 (find_library)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake:77 (_qt5gui_find_extra_libs)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake:191 (include)"
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    mode: "library"
+    variable: "Qt5Gui_GLESv2_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "GLESv2d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Qt5Gui"
+    configs:
+      -
+        filename: "Qt5GuiConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5gui-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Gui"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5GuiConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5gui-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Qt5Widgets"
+    configs:
+      -
+        filename: "Qt5WidgetsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5widgets-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Widgets"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5WidgetsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5widgets-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Qt5Sql"
+    configs:
+      -
+        filename: "Qt5SqlConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5sql-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Sql"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5SqlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5sql-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:28 (find_package)"
+    name: "Qt5Network"
+    configs:
+      -
+        filename: "Qt5NetworkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5network-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Network"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5/Qt5Config.cmake:33 (find_package)"
+      - "CMakeLists.txt:45 (find_package)"
+    name: "Qt5Mqtt"
+    configs:
+      -
+        filename: "Qt5MqttConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt5mqtt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt5Mqtt"
+      search_paths:
+        - "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "ONLY"
+    candidates:
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5MqttConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/qt5mqtt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi/usr/lib/cmake/Qt5Mqtt/Qt5MqttConfig.cmake"
+      mode: "config"
+      version: "5.12.9"
+    search_context:
+      ENV{PATH}:
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/ccking/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/ccking/QT/QT6/6.11.2/gcc_64/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin"
+        - "/home/ccking/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/opt/terminalApp"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/opt/terminalApp"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+      CMAKE_FIND_ROOT_PATH: "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/cortexa7hf-neon-poky-linux-gnueabi"
+...

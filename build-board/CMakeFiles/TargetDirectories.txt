@@ -1,0 +1,9 @@
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/TerminalApp.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/TerminalApp_runtime.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/edit_cache.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/rebuild_cache.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/list_install_components.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/install.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/install/local.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/install/strip.dir
+/home/ccking/QT/qtboard/terminalApp/build-board/CMakeFiles/TerminalApp_autogen.dir

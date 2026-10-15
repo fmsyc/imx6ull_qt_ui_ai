@@ -1,0 +1,26 @@
+[Unit]
+Description=TerminalApp Qt Widgets desktop shell
+After=network.target
+
+[Service]
+Type=simple
+
+# Adjust to where sync_board.sh copied everything.
+WorkingDirectory=/opt/terminalApp
+ExecStart=/opt/terminalApp/run.sh
+
+# EGLFS / framebuffer environment
+Environment=QT_QPA_PLATFORM=eglfs
+Environment=QT_QPA_EGLFS_INTEGRATION=eglfs_viv
+Environment=QT_QPA_EGLFS_ALWAYS_SET_MODE=1
+Environment=QT_QPA_EGLFS_HIDECURSOR=1
+Environment=QT_QPA_FONTDIR=/usr/share/fonts
+
+# Start after the framebuffer/DRM subsystem is ready.
+Restart=on-failure
+RestartSec=2
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

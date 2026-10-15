@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ccking/QT/qtboard/terminalApp/build-board/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

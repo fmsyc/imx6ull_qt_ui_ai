@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DesktopWindow</class>
+ <widget class="QWidget" name="DesktopWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TerminalApp</string>
+  </property>
+  <layout class="QVBoxLayout" name="rootLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="StatusBar" name="statusBar"/>
+   </item>
+   <item>
+    <widget class="QStackedWidget" name="contentStack">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="desktopPage">
+      <layout class="QVBoxLayout" name="desktopPageLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="PagerWidget" name="pager"/>
+       </item>
+       <item>
+        <widget class="PageIndicator" name="pageIndicator"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="DockBar" name="dockBar"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StatusBar</class>
+   <extends>QWidget</extends>
+   <header>shell/StatusBar.h</header>
+   <container>0</container>
+  </customwidget>
+  <customwidget>
+   <class>DockBar</class>
+   <extends>QWidget</extends>
+   <header>shell/DockBar.h</header>
+   <container>0</container>
+  </customwidget>
+  <customwidget>
+   <class>PagerWidget</class>
+   <extends>QWidget</extends>
+   <header>shell/PagerWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PageIndicator</class>
+   <extends>QWidget</extends>
+   <header>shell/PageIndicator.h</header>
+   <container>0</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

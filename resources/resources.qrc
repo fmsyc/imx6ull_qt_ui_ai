@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/resources/icons">
+        <file>ui/style.qss</file>
+        <file>background/desktop.png</file>
+        <file>icons/app_camera.png</file>
+        <file>icons/app_media.png</file>
+        <file>icons/app_radio.png</file>
+        <file>icons/app_gallery.png</file>
+        <file>icons/app_record.png</file>
+        <file>icons/app_device.png</file>
+        <file>icons/app_serial.png</file>
+        <file>icons/app_network.png</file>
+        <file>icons/app_settings.png</file>
+        <file>icons/dock_home.png</file>
+        <file>icons/dock_nav.png</file>
+        <file>icons/dock_volume.png</file>
+        <file>icons/dock_fan.png</file>
+        <file>icons/dock_settings.png</file>
+        <file>icons/status_mic.png</file>
+        <file>icons/status_avatar.png</file>
+        <file>icons/status_wifi.png</file>
+        <file>icons/status_signal.png</file>
+        <file>icons/app_music.png</file>
+    </qresource>
+    <qresource prefix="/config">
+        <file alias="apps.json">../config/apps.json</file>
+    </qresource>
+</RCC>

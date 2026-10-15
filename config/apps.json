@@ -1,0 +1,44 @@
+{
+  "version": 1,
+
+  "pages": [
+    {
+      "title": "广东",
+      "apps": [
+        { "id": "camera",  "name": "摄像头",   "icon": "resources/icons/app_camera.png",  "type": "embedded" },
+        { "id": "media",   "name": "媒体播放", "icon": "resources/icons/app_media.png",   "type": "embedded" },
+        { "id": "music",   "name": "音乐",     "icon": "resources/icons/app_music.png",   "type": "embedded" },
+        { "id": "radio",   "name": "收音机",   "icon": "resources/icons/app_radio.png",   "type": "embedded" },
+        { "id": "gallery", "name": "相册",     "icon": "resources/icons/app_gallery.png", "type": "embedded" }
+      ]
+    },
+    {
+      "title": "设备与外设",
+      "apps": [
+        { "id": "record",   "name": "录音",     "icon": "resources/icons/app_record.png",   "type": "embedded" },
+        { "id": "device",   "name": "设备信息", "icon": "resources/icons/app_device.png",   "type": "embedded" },
+        { "id": "serial",   "name": "串口助手", "icon": "resources/icons/app_serial.png",   "type": "embedded" },
+        { "id": "network",  "name": "网络",     "icon": "resources/icons/app_network.png",  "type": "embedded" },
+        { "id": "settings", "name": "设置",     "icon": "resources/icons/app_settings.png", "type": "embedded" },
+        { "id": "mqtt",     "name": "MQTT",     "icon": "resources/icons/app_settings.png", "type": "embedded" },
+        {
+          "id": "external-demo",
+          "name": "外挂示例",
+          "icon": "resources/icons/app_settings.png",
+          "type": "external",
+          "exec": "resources/tools/external_demo.sh",
+          "args": [],
+          "daemon": false
+        }
+      ]
+    }
+  ],
+
+  "dock": [
+    { "id": "home",     "icon": "resources/icons/dock_home.png",     "tip": "回到桌面" },
+    { "id": "nav",      "icon": "resources/icons/dock_nav.png",      "tip": "导航" },
+    { "id": "volume",   "icon": "resources/icons/dock_volume.png",   "tip": "音量" },
+    { "id": "fan",      "icon": "resources/icons/dock_fan.png",      "tip": "风扇" },
+    { "id": "settings", "icon": "resources/icons/dock_settings.png", "tip": "设置", "app": "settings" }
+  ]
+}

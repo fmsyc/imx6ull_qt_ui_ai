@@ -1,0 +1,144 @@
+/* ---------------------------------------------------------------------------
+ * TerminalApp - global stylesheet
+ * ---------------------------------------------------------------------------
+ * Loaded at runtime from  resources/ui/style.qss  (next to the executable).
+ * Edit it on the device and restart the app - no recompilation needed.
+ *
+ * Rule of thumb:
+ *   * the wallpaper is painted by DesktopWindow::paintEvent(), so every
+ *     container in between stays transparent;
+ *   * only "surfaces" (pills, panels, tiles, buttons) get a background.
+ * ------------------------------------------------------------------------- */
+
+* {
+    color: #E8EEF9;
+    font-family: "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Source Han Sans SC",
+                 "DejaVu Sans", "Sans Serif";
+    font-size: 15px;
+    outline: none;
+}
+
+/* --- transparent containers (let the wallpaper show through) ------------- */
+#DesktopWindow,
+#contentStack,
+#desktopPage,
+#PagerWidget,
+#AppPage,
+#StatusBar,
+#DockBar {
+    background: transparent;
+}
+
+/* --- status bar ---------------------------------------------------------- */
+#voicePill {
+    background-color: rgba(255, 255, 255, 24);
+    border: 1px solid rgba(255, 255, 255, 34);
+    border-radius: 20px;
+}
+
+#hintLabel {
+    color: rgba(232, 238, 249, 190);
+}
+
+#userLabel {
+    color: rgba(232, 238, 249, 215);
+    font-weight: 600;
+}
+
+#clockLabel {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* --- app grid ------------------------------------------------------------ */
+#AppPage > QLabel#titleLabel {
+    color: rgba(232, 238, 249, 210);
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+#AppTile {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
+#AppTile:hover {
+    background-color: rgba(255, 255, 255, 22);
+    border: 1px solid rgba(255, 255, 255, 34);
+}
+
+#AppTile:pressed {
+    background-color: rgba(255, 255, 255, 40);
+}
+
+#AppTile QLabel#nameLabel {
+    color: rgba(236, 242, 252, 230);
+    font-size: 14px;
+}
+
+/* --- dock ---------------------------------------------------------------- */
+#dockPanel {
+    background-color: rgba(16, 22, 34, 150);
+    border: 1px solid rgba(255, 255, 255, 26);
+    border-radius: 26px;
+}
+
+#DockButton {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 16px;
+}
+
+#DockButton:hover {
+    background-color: rgba(255, 255, 255, 26);
+}
+
+#DockButton:pressed {
+    background-color: rgba(255, 255, 255, 46);
+}
+
+/* --- embedded app pages -------------------------------------------------- */
+#CameraPage, #PlaceholderPage {
+    background-color: rgba(10, 15, 25, 150);
+}
+
+#CameraPage QLabel#titleLabel,
+#PlaceholderPage QLabel#titleLabel {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#videoArea {
+    background-color: rgba(0, 0, 0, 90);
+    border: 1px dashed rgba(255, 255, 255, 60);
+    border-radius: 14px;
+}
+
+#videoHint {
+    color: rgba(232, 238, 249, 150);
+}
+
+/* --- generic controls (used inside the pages) ---------------------------- */
+QToolButton {
+    background-color: rgba(255, 255, 255, 22);
+    border: 1px solid rgba(255, 255, 255, 34);
+    border-radius: 10px;
+    padding: 6px 14px;
+}
+
+QToolButton:hover   { background-color: rgba(255, 255, 255, 38); }
+QToolButton:pressed { background-color: rgba(255, 255, 255, 56); }
+
+QPushButton {
+    background-color: rgba(90, 124, 255, 210);
+    border: 1px solid rgba(255, 255, 255, 40);
+    border-radius: 10px;
+    padding: 8px 22px;
+    font-weight: 600;
+}
+
+QPushButton:hover   { background-color: rgba(112, 146, 255, 230); }
+QPushButton:pressed { background-color: rgba(70, 100, 220, 240); }

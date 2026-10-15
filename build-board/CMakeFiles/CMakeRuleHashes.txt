@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+a5d140daa5c67a706efe99d7e1b66c2a CMakeFiles/TerminalApp_autogen
+3b336daec434d136914b2d8df43442af CMakeFiles/TerminalApp_runtime
+6ef18f0f99d6679917cc92d7fd800a5a TerminalApp_autogen/3YJK5W5UP7/qrc_resources.cpp
